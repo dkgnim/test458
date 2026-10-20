@@ -1,0 +1,1 @@
+vm block-device-gpt sort-partnumbers bootloader cloud-init-datasources apt-sources modprobe ubuntu-minimal ubuntu-jammy-servercore growroot set-root-pw crontab-randomizer customize-image -t raw --mkfs-options -O ^metadata_csum,64bit -i 16384 -o /var/diskimage-builder/images/ubuntu-jammy-servercore-amd64-servercore-master-product-0.1
